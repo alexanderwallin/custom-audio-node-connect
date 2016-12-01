@@ -1,0 +1,30 @@
+{
+  "name": "custom-audio-node-connect",
+  "version": "1.0.0",
+  "description": "A tiny module that allows you to connect custom audio nodes in your Web Audio API audio chain",
+  "main": "dist/enableCustomConnects.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "clean": "rimraf dist",
+    "prebuild": "npm run clean",
+    "build": "babel -d dist src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/alexanderwallin/custom-audio-node-connect.git"
+  },
+  "author": "Alexander Wallin <office@alexanderwallin.com> (http://alexanderwallin.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexanderwallin/custom-audio-node-connect/issues"
+  },
+  "homepage": "https://github.com/alexanderwallin/custom-audio-node-connect#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-latest": "^6.16.0",
+    "rimraf": "^2.5.4"
+  }
+}
