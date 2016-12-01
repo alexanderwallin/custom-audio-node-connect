@@ -1,6 +1,6 @@
 {
   "name": "custom-audio-node-connect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tiny module that allows you to connect custom audio nodes in your Web Audio API audio chain",
   "main": "dist/enableCustomConnects.js",
   "files": [
