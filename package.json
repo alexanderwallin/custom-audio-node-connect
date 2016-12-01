@@ -22,6 +22,17 @@
     "url": "https://github.com/alexanderwallin/custom-audio-node-connect/issues"
   },
   "homepage": "https://github.com/alexanderwallin/custom-audio-node-connect#readme",
+  "keywords": [
+    "waapi",
+    "Web Audio Api",
+    "AudioContext",
+    "connect",
+    "AudioNode",
+    "audio",
+    "shim",
+    "audio chain",
+    "effect"
+  ],
   "devDependencies": {
     "babel-cli": "^6.18.0",
     "babel-preset-latest": "^6.16.0",
