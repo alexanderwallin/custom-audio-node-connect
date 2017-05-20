@@ -47,7 +47,7 @@ crushEffect.connect(ctx.destination)
 
 ## API
 
-### `enableCustomConnects(audioContext, inputSelector)`
+### `enableCustomConnects(audioContext, inputSelector)`
 
 ##### `audioContext`
 
